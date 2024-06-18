@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using DataSources;
+
+// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
+
+var allAlbums = ListAlbumsData.ListAlbums;
